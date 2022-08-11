@@ -1,0 +1,555 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .parte1 {
+   width:100%;
+   height: 10%;
+   display: inline-block;
+   position:relative;
+   background-color:#8C2527;
+ }
+
+ #TextoSuperiorDireito{
+   text-decoration: none;
+   color: white;
+ }
+
+ #TextoSuperiorDireito:hover{
+   color:#DBA67B;
+ }
+
+ .ParteSuperiorDireita {
+   float:right;
+   position: relative;
+   right:2%; 
+   top:20%;
+ }
+
+ .parte2 {
+   width:100%;
+   height: 67%;
+   display: inline-block;
+   background-image: url("imagens/artistas.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+ .parte2Inicio {
+   width:100%;
+   height: 67%;
+   display: inline-block;
+   background-image: url("imagens/artfolio.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+ }
+
+ .parte3 {
+   width:100%;
+   display: inline-block;
+   position:relative;
+   background-color:#8C2527;
+ }
+
+ .parte3Dados {
+   width:100%;
+   height: 100%;
+   display: inline-block;
+   position:relative;
+   background-color:#8C2527;
+ }
+
+ .parte3Inicio {
+   width:100%;
+   height: 10%;
+   display: inline-block;
+   position:relative;
+   background-color:#8C2527;
+ }
+
+ .parte3Perfil {
+   width:100%;
+   height: 60%;
+   display: inline-block;
+   position:relative;
+   background-color:#DBA67B;
+ }
+
+ .parte3 h1 {
+   display: inline;
+   position: absolute;
+   left: 8%; 
+   top:5%;
+   color: #DFDFC9;
+   font-family:Century Gothic;
+ }
+
+ .parte3Inicio h1 {
+  display: inline;
+  position: absolute;
+  left: 8%; 
+  top:40%;
+  color: #DFDFC9;
+  font-family:Century Gothic;
+}
+
+.NomeArtista{
+ color: #DFDFC9;
+}
+
+.inserir{
+  position:relative;
+  top:25%;
+  left:50%;
+  width:  40%;
+  height:   40%;
+  transform: translateX(-50%);
+}
+
+.inserirLogin{
+  display: inline-block;
+  position:relative;
+  top:20%;
+  left:50%;
+  width:  40%;
+  height:   40%;
+  transform: translateX(-50%);
+
+}
+
+.inputtexto{
+  padding-left:   2%;
+  position:   relative;
+  left:2%;
+  width:80%;
+  height:12%
+}
+
+.inputtextoEditar{
+  padding-left:   2%;
+  position:   relative;
+  left:2%;
+  width:65%;
+  height:7%
+}
+
+.inputsenha{
+  padding-left:   2%;
+  position:   relative;
+  left:2%;
+  width:80%;
+  height:12%;
+}
+
+.botao{
+  position: relative;
+  width:20%;
+  height:17%;
+  left: 50%; 
+  top:20%;
+  transform: translate(-50%, -50%);
+  background-color: #DBA67B;   
+  color:#8C2527;
+  font-family:Century Gothic;
+  font-size: 30px;
+  word-spacing: 40px; 
+  border:none;
+  border-radius:6px;
+  cursor:pointer; 
+}
+
+.botaoEdicao{
+  width:25%;
+  height:10%;
+  background-color: #DBA67B;  
+  color:#8C2527;
+  font-family:Century Gothic;
+  font-size: 24px;
+  word-spacing: 40px;
+  cursor: pointer;
+  border:none;
+  border-radius: 6px;
+}
+
+.botaoLogin{
+  position: relative;
+  width:20%;
+  height:17%;
+  background-color: #DBA67B;  
+  color:#8C2527;
+  font-family:Century Gothic;
+  font-size: 150%;
+  word-spacing: 40px;
+  left:50%;
+  top:20%;
+  transform: translate(-50%,-50%);
+  cursor: pointer;
+  border-radius: 6px;
+  border:none;
+}
+
+.Cadastro{
+  padding-left:35%;  
+  font-family:Century Gothic;
+  font-size: 35px;
+  display: inline;
+  color: #DFDFC9;
+  font-family:Century Gothic;
+  word-spacing: 40px;
+}
+
+.Sair{
+  position: relative;
+  float:left;
+  left:100%;
+  display: inline;
+  color: #DFDFC9;
+  font-family:Century Gothic;
+  font-size: 30px;
+  transform: translateX(-50%);
+}
+
+.ParteSuperiorEditarPerfil{
+  position: absolute;
+  float: left;
+  left:20;
+  top:20%;
+  width:90%;
+}
+
+.inserirperfil{
+  position:absolute;
+  top:10%;
+  left:25%;
+  width:  40%;
+  height:   65%;
+  transform: translateX(-50%);
+}
+
+.inserirarte{
+  position:absolute;
+  top:10%;
+  left:75%;
+  width:  40%;
+  height:   65%;
+  transform: translateX(-50%);
+}
+
+.inputdata{
+  padding-left:   2%;
+  position:   relative;
+  left:2%;
+  height:7%;
+}
+
+.linhacentral{
+  width:2px;
+  height:85%;
+  display:inline-block;
+  position:relative;
+  left:50%;
+  top:50%;
+  background-color: #DBA67B; 
+  transform: translateY(-50%);   
+}
+
+.linha1{
+ width:100%;
+ height: 3%;
+ display: inline-block;
+ position: relative;
+ background-color:#DBA67B;
+}
+
+.linha2{
+ width:100%;
+ height: 3%;
+ display: inline-block;
+ position: relative;
+ background-color:#8C2527;
+}
+
+.Listas {
+  display: inline;
+  color: #DFDFC9;
+  font-family:Century Gothic;
+  font-size: 30px;
+  word-spacing: 40px;
+}
+
+.ListasEdicao{
+  display: inline;
+  color: #DFDFC9;
+  font-family:Century Gothic;
+  font-size: 30px;
+}
+
+.artista {
+ margin-top: 2%;
+ margin-left: 10%;
+ color: #DFDFC9;
+
+}
+
+.AgrupamentoArtistas{
+ display: inline-block;
+ position: relative;
+ transform:translateY(-80%);
+
+}
+
+.PerfilArtistas{
+ width: 40%;
+ display: inline-block;
+ position: relative;
+}
+
+.FotoPerfil{
+  height:80%;
+  border: 5px solid #8C2527 ;
+  display: inline;
+  position: absolute;
+  left: 8%; 
+  top:50%; 
+  transform: translateY(-50%);
+}
+
+.NomeAutor{
+  display: inline;
+  position: absolute;
+  left: 35%; 
+  top:10%;
+  color: #8C2527;
+  font-family:Century Gothic;
+}
+
+.BiografiaAutor{
+  display: inline;
+  position: absolute;
+  left: 35%; 
+  top: 30%;
+  color: #8C2527;
+  font-family:Century Gothic;
+  font-size: 22px;
+  margin-right: 3%;
+}
+
+.ArquivoObras{
+  width:90%; 
+  margin:5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.TituloObras{
+  color: #8C2527;
+  font-family:Century Gothic;
+  font-size: 22px;
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.Legenda{
+  color: #8C2527;
+  font-family:Century Gothic;
+  font-size: 16px;
+  text-align:justify;
+  margin-left: 20%;
+}
+
+.parte4 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color:#8C2527;
+}
+
+.NovasObras {
+  width:80%; 
+  margin:5%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #DFDFC9;
+}
+
+.parte4Perfil {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color:#DFDFC9;
+}
+
+.LoginMeioTela{
+  font-family:Century Gothic;
+  font-size: 35px;  
+  display: inline;
+  color: #DFDFC9;
+  font-family:Century Gothic;
+  word-spacing: 40px;
+}
+
+.textoabaixo{
+  font-size:20px;
+  color:#DFDFC9;
+  font-family:Century Gothic;
+  margin: 1%;
+  position: relative;
+  left:0%;
+  top:30%;
+  transform: translate(-50%,-50%);
+}
+
+.cadastre-se{
+  text-decoration: underline;
+  color:white;
+}
+
+.cadastre-se:hover{
+  color:#DBA67B;
+}
+
+h3{
+  display:inline;
+}
+
+.grid{
+ display: grid;
+ grid-template-columns: 50% 50%;
+}
+
+.rodape {
+  display: inline-block;
+  position:relative;
+  background-color:#DBA67B;
+  width:100%;
+  height: 25%;
+}
+
+.Textorodape {
+  color:#8C2527; 
+  position: absolute;
+  left: 40%; 
+  top:45%;
+  transform: translate(-30%, -45%);
+}
+
+.Copyright{
+  color:#8C2527;
+  position: absolute; 
+  left: 2%; 
+  top:10%;
+}
+
+.PaulKlee {
+  color:#8C2527; 
+  position: absolute; 
+  left: 50%; 
+  top:70%;
+  transform: translate(-50%, -50%);
+}
+
+@media(max-height: 400px){
+  .BiografiaAutor{
+    font-size: 16px;
+  }
+
+  .PaulKlee{
+    color:transparent;
+  }
+  .Textorodape{
+    color:transparent;
+  }
+  .BiografiaAutor{
+    color:transparent;
+  }
+}
+
+@media(max-width: 600px){
+  #TextoSuperiorDireito{
+    font-size:18px;
+  }
+  .PaulKlee{
+    color:transparent;
+  }
+  .Textorodape{
+    color:transparent;
+  }
+
+  .AgrupamentoArtistas{
+    font-size: 10px;
+    top:30%;
+  }
+
+  .inputtextoEditar{
+    height: 5%;
+  }
+}
+
+@media(max-height: 300px)  {
+  #TextoSuperiorDireito{
+    font-size:18px;
+  }
+
+  .Sair{
+    font-size:18px;
+  }
+}
+
+@media(max-width:900px)  {
+  .NomeAutor{
+    color:transparent;
+  }
+  .BiografiaAutor{
+    color:transparent;
+  }
+}
+
+@media(max-width:1000px)  {
+  .inputtexto{
+    height: 10%;
+    width: 60%;
+  }
+
+  .textoabaixo{
+    font-size: 14px;
+  }
+
+  .FotoCapa{
+    color:transparent !important;
+  }
+
+  .FotoPerfilEditar{
+    color:transparent !important;
+  }
+
+  .FotoArte{
+    color:transparent !important;    
+  }
+
+  .ListasEdicao{
+    font-size:14px;
+  }
+}
+
+@media(max-width:1200px)  {
+
+  .inserirLogin, .inserir{
+    width: 60%;
+    font-size: 10px;
+    display:inline-block;
+  }
+}
+
+@media(min-width:600px) and (max-width: 999px){
+  .AgrupamentoArtistas{
+    font-size: 14px;
+    top:30%;
+  }
+}
